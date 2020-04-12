@@ -15,6 +15,12 @@ public class TopicController {
 	@Autowired
 	private TopicService topicService;
 	
+	@RequestMapping("/")
+	public String hello() {
+		return "Welcome Page";
+	}
+	
+	
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {
 		return topicService.getAllTopics();
