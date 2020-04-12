@@ -1,4 +1,4 @@
-# Simple spring boot application with maven and docker
+# Simple spring boot application with Maven and Docker
 
 ## API
 ```
@@ -36,7 +36,7 @@ localhost:8081
 java -jar target/course-api-0.0.1-SNAPSHOT.jar
 ```
 
-The spring boot application is configured on port `8081` (in `application.properties` file), so you need to call:
+The spring boot application is configured on port `8081` (in `src/main/resources/application.properties` file), so you need to call:
 ```
 localhost:8081
 ```
