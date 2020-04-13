@@ -30,7 +30,7 @@ localhost:8081
 ```
 
 ## How to run without docker
-> In order to run the below command, you need java installed.
+> In order to run the below command, you need to build the project and have java installed.
 
 ```
 java -jar target/course-api-0.0.1-SNAPSHOT.jar
